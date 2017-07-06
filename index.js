@@ -50,7 +50,7 @@ function saveSitemap(urls){
     });
 
     var stringData=sitemap.toString();
-    fs.writeFileSync("sitemap.xml", stringData);
-    fs.writeFileSync("sitemap.xml.gz", zlib.gzipSync(stringData));
+    fs.writeFileSync("../webapp/sitemap.xml", stringData);
+    fs.writeFileSync("../webapp/sitemap.xml.gz", zlib.gzipSync(stringData));
     console.log('sitemap saved...');
 }
