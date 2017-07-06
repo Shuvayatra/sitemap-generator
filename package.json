@@ -1,0 +1,18 @@
+{
+  "name": "sitemap-generator",
+  "version": "1.0.0",
+  "description": "to generate sitemap for Shuvayatra",
+  "main": "index.js",
+  "dependencies": {
+    "html-to-text": "^3.3.0",
+    "request": "^2.81.0",
+    "sitemap": "^1.13.0",
+    "sync-request": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
