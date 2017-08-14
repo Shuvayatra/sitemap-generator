@@ -33,6 +33,7 @@ while (url!==null) {
             }
             postNode.img=images;
             postNode.video=videos;
+            postNode.ampLink='https://amp.shuvayatra.org/post/'+post.id,
             urls.push(postNode);
         }
     url=posts.next_page_url;
